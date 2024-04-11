@@ -1,0 +1,9 @@
+Questions for the 
+
+Do we have to do another algorithm ? (UCB beating algortihm ?)
+
+How do we change the settings ? (n_users, budget, number of bidders...)
+
+How often does it change, after 1 iteration ?
+
+Try to show our code and ask about the clairvoyant part.
