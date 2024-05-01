@@ -5,7 +5,7 @@
 import numpy as np
 
 # Configuration parameters
-ITERATIONS = 1000
+ITERATIONS = 100
 AUCTIONS = 100
 N_USERS = 100
 N_ADVERTISERS = 10    # number of companies that compete for slot auctions, including myself
