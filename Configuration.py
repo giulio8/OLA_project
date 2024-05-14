@@ -6,10 +6,10 @@ import numpy as np
 
 # Configuration parameters
 ITERATIONS = 100
-AUCTIONS = 100
-N_USERS = 100
+AUCTIONS = 10
+N_USERS = 10
 N_ADVERTISERS = 10    # number of companies that compete for slot auctions, including myself
-NUMBER_OF_ARMS = 100    # needed for the UCB algorithm
+NUMBER_OF_ARMS = 10    # needed for the UCB algorithm
 PRICES = np.linspace(0, 1, NUMBER_OF_ARMS)    # actual arms of the ucb algorithm
 BUDGET = 1000
 NUMBER_OF_SLOTS = 10
