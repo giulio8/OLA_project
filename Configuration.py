@@ -16,3 +16,5 @@ NUMBER_OF_SLOTS = 10
 
 lambda_fun_param = lambda s: 1/(s+(0.3))       # probability of the ad being seen given the position s ->  0.5 for first position, 0.33 for second, 0.25 for third, etc...
 LAMBDAS = np.array([lambda_fun_param(i) for i in range(1, NUMBER_OF_SLOTS+1)])    # array of lambda values (for each slot)
+
+DAYS = 100 # number of rounds of the pricing algorithm
