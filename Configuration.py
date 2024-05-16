@@ -5,13 +5,13 @@
 import numpy as np
 
 # Configuration parameters
-ITERATIONS = 100
-AUCTIONS = 100
-N_USERS = 100
-N_ADVERTISERS = 10    # number of companies that compete for slot auctions, including myself
-NUMBER_OF_ARMS = 100    # needed for the UCB algorithm
+ITERATIONS = 50
+AUCTIONS = 10
+N_USERS = 10
+N_ADVERTISERS = 100    # number of companies that compete for slot auctions, including myself
+NUMBER_OF_ARMS = 10    # needed for the UCB algorithm
 PRICES = np.linspace(0, 1, NUMBER_OF_ARMS)    # actual arms of the ucb algorithm
-BUDGET = 1000
+BUDGET = 500
 NUMBER_OF_SLOTS = 10
 
 lambda_fun_param = lambda s: 1/(s+(0.3))       # probability of the ad being seen given the position s ->  0.5 for first position, 0.33 for second, 0.25 for third, etc...
