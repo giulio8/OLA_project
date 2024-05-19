@@ -24,3 +24,4 @@ lambda_fun_param = lambda s: 1/(s+(0.3))       # probability of the ad being see
 LAMBDAS = np.array([lambda_fun_param(i) for i in range(1, NUMBER_OF_SLOTS+1)])    # array of lambda values (for each slot)
 
 DAYS = 1000 # number of rounds of the pricing algorithm
+INTERVAL_LENGTH = 10 # length of the interval (in days) for changing the demand curve
