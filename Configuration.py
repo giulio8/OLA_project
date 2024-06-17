@@ -5,17 +5,17 @@
 import numpy as np
 
 # Configuration parameters
-ITERATIONS = 50
+ITERATIONS = 200#50
 AUCTIONS = 10 # auctions per day
 BUDGET_PER_AUCTION = 0.5
 BUDGET_PER_DAY = BUDGET_PER_AUCTION * AUCTIONS
-N_USERS = 1000
+N_USERS = 100
 N_ADVERTISERS = 10    # number of companies that compete for slot auctions, including myself
-NUMBER_OF_ARMS = 10    # needed for the UCB algorithm
+NUMBER_OF_ARMS = 100    # needed for the UCB algorithm
 MIN_PRICE = 0
 MAX_PRICE = 1
 COST = 0.1
-NUMBER_OF_PRICES = 100
+NUMBER_OF_PRICES = 10  #100
 PRICES = np.linspace(MIN_PRICE, MAX_PRICE, NUMBER_OF_PRICES)
 BUDGET = 500
 NUMBER_OF_SLOTS = 10
