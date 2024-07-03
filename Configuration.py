@@ -7,7 +7,7 @@ import numpy as np
 # Configuration parameters
 ITERATIONS = 200#50
 AUCTIONS = 10 # auctions per day
-BUDGET_PER_AUCTION = 0.5
+BUDGET_PER_AUCTION = 0.1
 BUDGET_PER_DAY = BUDGET_PER_AUCTION * AUCTIONS
 N_USERS = 100
 N_ADVERTISERS = 10    # number of companies that compete for slot auctions, including myself
